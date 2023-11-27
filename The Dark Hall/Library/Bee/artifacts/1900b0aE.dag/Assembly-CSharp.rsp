@@ -407,6 +407,8 @@
 "Assets/Scripts/LevelManager.cs"
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/TAZO_3D_C/DemoScene/Action_Manage.cs"
+"Assets/TAZO_3D_C/DemoScene/demo.cs"
 -langversion:9.0
 
 /deterministic
