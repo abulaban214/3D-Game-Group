@@ -87,12 +87,14 @@
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\PostProcessingComponent.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\FxaaComponent.cs" />
     <Compile Include="Assets\Scripts\EyeballSpawner.cs" />
+    <Compile Include="Assets\3D Eyes\DemoScene\Action_Manage.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\UserLutComponent.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\DitheringModel.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\3D Eyes\DemoScene\demo.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\DitheringComponent.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
@@ -111,10 +113,8 @@
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\FogModel.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\GrainComponent.cs" />
-    <Compile Include="Assets\TAZO_3D_C\DemoScene\demo.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\TAZO_3D_C\DemoScene\Action_Manage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -128,7 +128,6 @@
     <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
-    <None Include="Assets\TAZO_3D_C\Creature\Egg_Minions\Shader\Cartoon_a_without_outline.shader" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\LutGen.shader" />
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
@@ -183,12 +182,10 @@
     <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\TAZO_3D_C\Creature\Egg_Minions\Shader\Cartoon.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\Flooded_Grounds\Content\Shaders\FG_Triplanar_BumpSpec.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
-    <None Include="Assets\TAZO_3D_C\Creature\Egg_Minions\Shader\Cartoon_culloff.shader" />
     <None Include="Assets\Flooded_Grounds\Content\Shaders\FG_Skybox_Rotating.shader" />
     <None Include="Assets\Flooded_Grounds\Content\Shaders\FG_PBR_Water.shader" />
   </ItemGroup>
